@@ -75,6 +75,31 @@ const obras = [
       "/images/edi2/edi2.png",
     ],
   },
+    {
+    id: "estacion-modular",
+    titulo: "Estación Modular de Investigación y Exploración",
+    categoria: "Arquitectura · Investigación y exploración",
+    imagen: "/images/estacion-modular/r1.png",
+    descripcion:
+      "El proyecto propone una estación científica modular destinada a la investigación, observación y exploración de los paisajes de alta montaña de Catamarca. Su innovación consiste en reutilizar andamios metálicos en desuso provenientes de empresas mineras, transformándolos en una estructura elevada, modular y transportable. Integra cerramientos aislantes, calefacción radiante, espacios de alojamiento y servicios, equipamiento de observación y comunicación, y autonomía operativa para terrenos de difícil acceso. Diseñada para montarse y desmontarse rápidamente, combina arquitectura modular, economía circular e investigación territorial.",
+    ubicacion:
+      "Cerro Multicolor · Paso de San Francisco · Catamarca, Argentina",
+    galeria: [
+      "/images/estacion-modular/r1.png",
+      "/images/estacion-modular/r2.png",
+      "/images/estacion-modular/r3.png",
+      "/images/estacion-modular/r4.png",
+      "/images/estacion-modular/r5.png",
+      "/images/estacion-modular/r6.png",
+      "/images/estacion-modular/r7.png",
+      "/images/estacion-modular/r8.png",
+      "/images/estacion-modular/r9.png",
+      "/images/estacion-modular/r10.png",
+      "/images/estacion-modular/r11.png",
+      "/images/estacion-modular/r12.png",
+      "/images/estacion-modular/r13.png",
+    ],
+  },
 ];
 
 const mapsUrl = "https://maps.app.goo.gl/83deT636JBthNZz77";
