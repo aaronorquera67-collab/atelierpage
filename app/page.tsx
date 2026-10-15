@@ -20,7 +20,7 @@ const obras = [
     id: "oficina",
     titulo: "Oficina",
     categoria: "Diseño de interiores",
-    imagen: "/images/ofi/ofi1.png",
+    imagen: "/images/ofi/ofi6.png",
     galeria: [
       "/images/ofi/ofi1.png",
       "/images/ofi/ofi2.png",
@@ -33,19 +33,22 @@ const obras = [
     id: "lobby",
     titulo: "Lobby",
     categoria: "Interiorismo · Espacios comunes",
-    imagen: "/images/Lobby/lobby1.png",
+    imagen: "/images/Lobby/lobby4.png",
+    descripcion:
+    "Ubicado en el corazón de Catamarca, el lobby de este hotel es una celebración de la identidad regional. Inspirado en la riqueza cultural de la zona, el diseño combina materiales locales y colores cálidos que reflejan la esencia de la región. Como pieza central, destaca una escultura del diseñador catamarqueño Cristian Mohaded, que aporta un toque de modernidad y arte al espacio. El resultado es un ambiente acogedor, elegante y profundamente conectado con la cultura local ",
     galeria: [
       "/images/Lobby/lobby1.png",
       "/images/Lobby/lobby2.png",
       "/images/Lobby/lobby3.png",
-      "/images/Lobby/lobby4.png",
     ],
   },
   {
     id: "edificio",
     titulo: "Edificio",
     categoria: "Arquitectura · Proyecto edilicio",
-    imagen: "/images/edificio/foto1.png",
+    imagen: "/images/edificio/foto0.png",
+    descripcion:
+    "Un espacio que transforma la vida del barrio en un hervidero de actividades y conexión. Este proyecto se alza elevando sus bloques de actividades, creando un parque techado en su base, donde la comunidad puede disfrutar al aire libre sin preocuparse por el clima. Caminatas elvadas y bicisendas cruzan el espacio, invitando a moverse y explorar. La "piel" del edificio, hecha de material reciclado, no solo es sostenible, sino que también está diseñada para maximizar la iluminación natural y proteger del sol",
     galeria: [
       "/images/edificio/foto1.png",
       "/images/edificio/foto2.png",
@@ -57,7 +60,7 @@ const obras = [
     id: "habitacion",
     titulo: "Habitación",
     categoria: "Interiorismo · Diseño residencial",
-    imagen: "/images/Habitacion/dormi1.png",
+    imagen: "/images/Habitacion/dormi0.png",
     galeria: [
       "/images/Habitacion/dormi1.png",
       "/images/Habitacion/dormi2.png",
@@ -69,7 +72,9 @@ const obras = [
     id: "edificio-2",
     titulo: "Edificio 02",
     categoria: "Arquitectura · Diseño",
-    imagen: "/images/edi2/edi1.png",
+    imagen: "/images/edi2/edi3.png",
+    descripcion:
+    "Ubicado en el corazón de Villa Cuba, este centro cultural es un refugio de creatividad y calidez. Su planta baja, completamente libre, invita a la imaginación con espacios versátiles para exposiciones, talleres y eventos comunitarios. En el segundo piso, las actividades cobran vida, en un entorno que combina la esencia de los materiales regionales con tonos cálidos que abrazan a quienes lo visitan. Un espacio pensado para conectar, inspirar y celebrar la cultura local"
     galeria: [
       "/images/edi2/edi1.png",
       "/images/edi2/edi2.png",
@@ -79,7 +84,7 @@ const obras = [
     id: "estacion-modular",
     titulo: "Estación Modular de Investigación y Exploración",
     categoria: "Arquitectura · Investigación y exploración",
-    imagen: "/images/estacion-modular/r1.png",
+    imagen: "/images/estacion-modular/r0.png",
     descripcion:
       "El proyecto propone una estación científica modular destinada a la investigación, observación y exploración de los paisajes de alta montaña de Catamarca. Su innovación consiste en reutilizar andamios metálicos en desuso provenientes de empresas mineras, transformándolos en una estructura elevada, modular y transportable. Integra cerramientos aislantes, calefacción radiante, espacios de alojamiento y servicios, equipamiento de observación y comunicación, y autonomía operativa para terrenos de difícil acceso. Diseñada para montarse y desmontarse rápidamente, combina arquitectura modular, economía circular e investigación territorial.",
     ubicacion:
@@ -293,11 +298,15 @@ export default function Home() {
             {proyectoSeleccionado.titulo}
           </h1>
 
-          <p className="mt-5 max-w-[620px] text-[13px] font-light leading-[1.9] opacity-75 sm:text-[14px]">
-            Una mirada sobre la arquitectura, la materialidad y la
-            experiencia del espacio. Cada proyecto explora la relación
-            entre las ideas, el contexto y la forma de habitar.
-          </p>
+         {proyectoSeleccionado.ubicacion && (
+  <p className="mt-5 text-[10px] tracking-[0.12em] opacity-55">
+    {proyectoSeleccionado.ubicacion}
+  </p>
+)}
+
+<p className="mt-5 max-w-[620px] text-[13px] font-light leading-[1.9] opacity-75 sm:text-[14px]">
+  {proyectoSeleccionado.descripcion}
+</p>
 
           <div className="mt-10 grid grid-cols-1 gap-3 sm:mt-16 sm:grid-cols-2 sm:gap-5">
             {proyectoSeleccionado.galeria.map((imagen, index) => (
