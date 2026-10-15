@@ -18,7 +18,7 @@ const images = [
 const obras = [
   {
     id: "oficina",
-    titulo: "Oficina",
+    titulo: "Espacis Calidos",
     categoria: "Diseño de interiores",
     imagen: "/images/ofi/ofi6.png",
     galeria: [
@@ -31,11 +31,11 @@ const obras = [
   },
   {
     id: "lobby",
-    titulo: "Lobby",
+    titulo: "Decoracion Regional",
     categoria: "Interiorismo · Espacios comunes",
     imagen: "/images/Lobby/lobby4.png",
     descripcion:
-    "Ubicado en el corazón de Catamarca, el lobby de este hotel es una celebración de la identidad regional. Inspirado en la riqueza cultural de la zona, el diseño combina materiales locales y colores cálidos que reflejan la esencia de la región. Como pieza central, destaca una escultura del diseñador catamarqueño Cristian Mohaded, que aporta un toque de modernidad y arte al espacio. El resultado es un ambiente acogedor, elegante y profundamente conectado con la cultura local ",
+    "Ubicado en el centro de Catamarca, el lobby de este hotel es una celebración de la identidad regional. Inspirado en la riqueza cultural de la zona, el diseño combina materiales locales y colores cálidos que reflejan la esencia de la región. Como pieza central, destaca una escultura inspirada en obras del diseñador catamarqueño Cristian Mohaded, que aporta un toque de modernidad y arte al espacio. El resultado es un ambiente acogedor, elegante y profundamente conectado con la cultura local ",
     galeria: [
       "/images/Lobby/lobby1.png",
       "/images/Lobby/lobby2.png",
@@ -44,7 +44,7 @@ const obras = [
   },
   {
     id: "edificio",
-    titulo: "Edificio",
+    titulo: "Condensador de actividades",
     categoria: "Arquitectura · Proyecto edilicio",
     imagen: "/images/edificio/foto0.png",
     descripcion:
@@ -58,7 +58,7 @@ const obras = [
   },
   {
     id: "habitacion",
-    titulo: "Habitación",
+    titulo: "Dormir con diseño",
     categoria: "Interiorismo · Diseño residencial",
     imagen: "/images/Habitacion/dormi0.png",
     galeria: [
@@ -70,7 +70,7 @@ const obras = [
   },
   {
     id: "edificio-2",
-    titulo: "Edificio 02",
+    titulo: "Espacios Barriales",
     categoria: "Arquitectura · Diseño",
     imagen: "/images/edi2/edi3.png",
     descripcion:
