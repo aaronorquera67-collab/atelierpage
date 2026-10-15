@@ -839,6 +839,13 @@ export default function Home() {
             letter-spacing: 0.12em;
 
           }
+            .menu-control[open] .menu-trigger {
+  color: #ffffff;
+}
+
+.menu-control[open] .menu-close-label {
+  color: #ffffff;
+}
 
         `}</style>
 
@@ -1882,6 +1889,11 @@ export default function Home() {
           display: inline;
 
         }
+         .menu-control[open] .menu-trigger,
+.menu-control[open] .menu-close-label {
+  color: #ffffff !important;
+  -webkit-text-fill-color: #ffffff;
+} 
 
 
 
