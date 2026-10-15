@@ -48,7 +48,7 @@ const obras = [
     categoria: "Arquitectura · Proyecto edilicio",
     imagen: "/images/edificio/foto0.png",
     descripcion:
-    "Un espacio que transforma la vida del barrio en un hervidero de actividades y conexión. Este proyecto se alza elevando sus bloques de actividades, creando un parque techado en su base, donde la comunidad puede disfrutar al aire libre sin preocuparse por el clima. Caminatas elvadas y bicisendas cruzan el espacio, invitando a moverse y explorar. La "piel" del edificio, hecha de material reciclado, no solo es sostenible, sino que también está diseñada para maximizar la iluminación natural y proteger del sol",
+    "Un espacio que transforma la vida del barrio en un hervidero de actividades y conexión. Este proyecto se alza elevando sus bloques de actividades, creando un parque techado en su base, donde la comunidad puede disfrutar al aire libre sin preocuparse por el clima. Caminatas elvadas y bicisendas cruzan el espacio, invitando a moverse y explorar. La piel del edificio, hecha de material reciclado, no solo es sostenible, sino que también está diseñada para maximizar la iluminación natural y proteger del sol",
     galeria: [
       "/images/edificio/foto1.png",
       "/images/edificio/foto2.png",
@@ -74,7 +74,7 @@ const obras = [
     categoria: "Arquitectura · Diseño",
     imagen: "/images/edi2/edi3.png",
     descripcion:
-    "Ubicado en el corazón de Villa Cuba, este centro cultural es un refugio de creatividad y calidez. Su planta baja, completamente libre, invita a la imaginación con espacios versátiles para exposiciones, talleres y eventos comunitarios. En el segundo piso, las actividades cobran vida, en un entorno que combina la esencia de los materiales regionales con tonos cálidos que abrazan a quienes lo visitan. Un espacio pensado para conectar, inspirar y celebrar la cultura local"
+    "Ubicado en el corazón de Villa Cuba, este centro cultural es un refugio de creatividad y calidez. Su planta baja, completamente libre, invita a la imaginación con espacios versátiles para exposiciones, talleres y eventos comunitarios. En el segundo piso, las actividades cobran vida, en un entorno que combina la esencia de los materiales regionales con tonos cálidos que abrazan a quienes lo visitan. Un espacio pensado para conectar, inspirar y celebrar la cultura local",
     galeria: [
       "/images/edi2/edi1.png",
       "/images/edi2/edi2.png",
