@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Atelier Studio | Arquitectura",
-  description: "Atelier de Arquitectura. Proyectos de arquitectura, diseño e interiorismo en Catamarca, Argentina.",,
+  description: "Atelier de Arquitectura. Proyectos de arquitectura, diseño e interiorismo en Catamarca, Argentina.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
